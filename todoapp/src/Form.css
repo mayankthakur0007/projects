@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#entry{
+padding: 16px;
+border-radius: 10px;
+}
+
+table { 
+    width: 90%;
+    margin-top: 20px;
+    border-collapse: collapse; 
+}
+
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: rgb(242, 245, 63); 
+    color: black; 
+    padding: 10px;
+
+    font-weight: bold; 
+  }
+  td, th { 
+    border: 1px solid #ccc;
+    text-align: revert;
+    font-size: x-large;
+    width: fit-content;
+  }
+
+  td{
+    padding: 10px;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .icons{
+    float: right;
+  }
