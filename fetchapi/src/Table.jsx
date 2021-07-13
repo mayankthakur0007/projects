@@ -8,8 +8,6 @@ import Typography from "@material-ui/core/Typography";
 import "./Table.css";
 
 const Table = (props) => {
-  console.log(props);
-
   const useStyles = makeStyles((theme) => ({
     avatar: {
       height: "100px",
